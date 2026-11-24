@@ -7,9 +7,7 @@ Requires JDK 25.
     ./gradlew build        (Windows: gradlew.bat build)
 Jar: build/libs/nestedshulkers-1.0.0.jar -> put in your mods folder.
 
-If you don't have the Gradle wrapper yet: generate a fresh project at
-https://fabricmc.net/develop/template/ for 26.3, then copy src/ over it
-(and match its build.gradle plugin/Loom version if mine differs).
+The Gradle wrapper (9.8.2) is included, so no separate Gradle install is needed.
 
 ## Test
 1. Creative world, place a shulker, put another shulker in it.
