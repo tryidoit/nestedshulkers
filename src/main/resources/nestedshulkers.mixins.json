@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.example.nestedshulkers.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ShulkerBoxMenuMixin",
+    "ShulkerBoxSlotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "AbstractContainerScreenAccessor"
+  ]
+}
