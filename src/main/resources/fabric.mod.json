@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "nestedshulkers",
+  "version": "${version}",
+  "name": "Nested Shulkers",
+  "description": "In creative mode, lets you put shulker boxes inside shulker boxes. Nesting is stored in vanilla item data, so it survives breaking, saved hotbars, and vanilla worlds.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "nestedshulkers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "entrypoints": {
+    "client": [
+      "com.example.nestedshulkers.client.NestedShulkersClient"
+    ]
+  }
+}
